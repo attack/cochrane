@@ -1,4 +1,9 @@
+.DS_Store
 *.gem
 .bundle
 Gemfile.lock
 pkg/*
+.rspec
+.bundle
+.ruby-version
+.rbx
