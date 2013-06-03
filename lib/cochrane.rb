@@ -1,5 +1,8 @@
-require "cochrane/version"
+require 'cochrane/version'
+require 'cochrane/base'
 
 module Cochrane
-  # Your code goes here...
+  def self.new(file_name=nil)
+    Cochrane::Base.new(file_name)
+  end
 end
